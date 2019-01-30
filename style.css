@@ -1,0 +1,51 @@
+body {
+    background-color: #222;
+}
+
+#pole {
+    margin: 0 auto;
+    height: 200px;
+    width: 50px;
+    background-color: #3c3c3c;
+}
+
+#lightbox {
+    margin: 0 auto;
+    height: 420px;
+    width: 220px;
+    background-color: #3c3c3c;
+}
+
+.light {
+    margin: 10px auto;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#red:hover {
+    border-color: white;
+    box-shadow: 0 0 100px rgb(245, 171, 171);
+}
+
+#yellow:hover {
+    border-color: white;
+    box-shadow: 0 0 100px rgb(250, 250, 169);
+}
+
+#green:hover {
+    border-color: white;
+    box-shadow: 0 0 100px rgb(167, 255, 167);
+}
